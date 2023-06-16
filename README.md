@@ -30,6 +30,6 @@ I simply asked ChatGPT to "Write a simple code using openai api to summarise a c
 There may be missed opportunites from the following:
 - ChatGPT can make mistakes. If you took a close look at the suggested code, you'd see that it included duplicate `temperature` attribute which threw an error. I have not taken a detailed looked into the API to understand the available attributes and how the model can be better tuned.
 - Using openai API is like using a blackbox i.e. despite using the `text-davinci-003` model, I am only aware that is is a pre-trained transformer neural network model and am unclear of the mechanisms.
-The proof of this is in copying the corpus and pasting into ChatGPT and asking for a summary. The output will be different and may be considered more/ less accurate.
+The proof of this is in copying the corpus and [pasting into ChatGPT and asking for a summary](https://chat.openai.com/share/173f4b86-0f33-41d5-824e-073e1ef0f887). The output will be different and may be considered more/ less accurate.
 
 I also did not do any data cleaning to remove punctuations, links etc.. This may affect the accuracy of the output.
