@@ -19,7 +19,7 @@ Using the `Snscrape` library, I gather a dataset of the following:
 
 There are also [other attributes](https://thetechrobo.ca/snscrape-docs/_autosummary/snscrape.modules.twitter.Tweet.html#snscrape.modules.twitter.Tweet)  to explore, if interested.
 
-!!Snscrape was blocked by Twitter and the kind developer who built it mentioned in some discussion thread that he would not be updating it soon so I resorted to using `Selenium` in a manual flow.!!
+Update: !!`Snscrape` was blocked by Twitter and the kind developer who built it mentioned in some discussion thread that he would not be updating it soon so I resorted to using `Selenium` in a manual flow!!
 
 ## Data processing
 The dataset was filtered by date tweet was created from a week before to current day (UTC).
